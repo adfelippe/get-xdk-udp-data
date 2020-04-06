@@ -2,7 +2,7 @@
 import socket
 import time
 
-HOST = '192.168.88.48'    # The remote host
+HOST = '192.168.0.3'    # The remote host
 PORT = 5005              # The same port as used by the server
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
